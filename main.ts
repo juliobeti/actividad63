@@ -1,5 +1,5 @@
 let n = 0
-basic.forever(function () {
+input.onGesture(Gesture.Shake, function () {
     n = randint(1, 6)
     basic.showNumber(n)
     basic.pause(1000)
